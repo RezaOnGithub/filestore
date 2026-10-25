@@ -7,9 +7,12 @@ tables below are conceptual, not final SQLite DDL. Earlier planning documents,
 including the retired scanner notes, remain in Git history.
 [Design questions and decisions](OPEN_QUESTIONS.md) records the decisions in Q1
 through Q14 and the questions that remain open; section 15 lists the remaining
-implementation work. [SCHEMA.dot](SCHEMA.dot) draws the tables of section 13 and
-is rendered with `dot -Tsvg`. [IDEAS.md](IDEAS.md) collects proposals that are
-not yet part of this design.
+implementation work. [SCHEMA.dot](SCHEMA.dot) draws the schema the prototype
+implements, a simplification of section 13; the diagram of section 13 as
+proposed remains in Git history. It is rendered with `dot -Tsvg`.
+[IMPLEMENTATION.md](IMPLEMENTATION.md) records where the prototype departs from
+this design, and [PLANS.md](PLANS.md) plans the remaining features.
+[IDEAS.md](IDEAS.md) collects proposals that are not yet part of this design.
 
 Filestore catalogs files in an ordinary filesystem tree. Users can edit, rename,
 copy, remove, and restore files without going through Filestore. Scanning
